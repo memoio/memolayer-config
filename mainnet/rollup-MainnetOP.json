@@ -1,0 +1,35 @@
+{
+  "genesis": {
+    "l1": {
+      "hash": "0x5af88c71a3473cc14890c58c510bacc5edbfdc8e07d1f9d4944ee6b1854f6a87",
+      "number": 19709000
+    },
+    "l2": {
+      "hash": "0x19b0d4791acfb4b539a9dc52379e9e1787c5c939321844ee58ce3d6908f384c3",
+      "number": 0
+    },
+    "l2_time": 1713765479,
+    "system_config": {
+      "batcherAddr": "0xcbd9bb39754a2f879bf566060bcee649bda5c37e",
+      "overhead": "0x00000000000000000000000000000000000000000000000000000000000000bc",
+      "scalar": "0x00000000000000000000000000000000000000000000000000000000000a6fe0",
+      "gasLimit": 30000000
+    }
+  },
+  "block_time": 2,
+  "max_sequencer_drift": 600,
+  "seq_window_size": 3600,
+  "channel_timeout": 300,
+  "l1_chain_id": 1,
+  "l2_chain_id": 9859,
+  "regolith_time": 0,
+  "batch_inbox_address": "0xff00000000000000000000000000000000009859",
+  "deposit_contract_address": "0xf0cadf6e9a8c1ff66b156e33a2cc65d061e7e2c8",
+  "l1_system_config_address": "0xc6d310539cdec791a10fdce9f08774b70cf7b07d",
+  "protocol_versions_address": "0x0000000000000000000000000000000000000000",
+  "da_challenge_address": "0x0000000000000000000000000000000000000000",
+  "da_challenge_window": 0,
+  "da_resolve_window": 0,
+  "use_plasma": false
+}
+
